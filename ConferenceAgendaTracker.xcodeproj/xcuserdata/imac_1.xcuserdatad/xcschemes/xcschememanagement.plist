@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ConferenceAgendaTracker.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4FD4750B1F3CFF4C000BA8BC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4FD475211F3CFF4C000BA8BC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4FD4752C1F3CFF4C000BA8BC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

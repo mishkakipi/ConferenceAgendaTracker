@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FD475101F3CFF4C000BA8BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD4750F1F3CFF4C000BA8BC /* AppDelegate.swift */; };
+		4FD475121F3CFF4C000BA8BC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD475111F3CFF4C000BA8BC /* FirstViewController.swift */; };
+		4FD475171F3CFF4C000BA8BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD475151F3CFF4C000BA8BC /* Main.storyboard */; };
+		4FD475191F3CFF4C000BA8BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD475181F3CFF4C000BA8BC /* Assets.xcassets */; };
+		4FD4751C1F3CFF4C000BA8BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD4751A1F3CFF4C000BA8BC /* LaunchScreen.storyboard */; };
+		4FD475271F3CFF4C000BA8BC /* ConferenceAgendaTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD475261F3CFF4C000BA8BC /* ConferenceAgendaTrackerTests.swift */; };
+		4FD475321F3CFF4C000BA8BC /* ConferenceAgendaTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD475311F3CFF4C000BA8BC /* ConferenceAgendaTrackerUITests.swift */; };
+		4FD475411F3D02EA000BA8BC /* AgendaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD475401F3D02EA000BA8BC /* AgendaManager.swift */; };
+		4FD475431F3D10AC000BA8BC /* AgendaSessionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD475421F3D10AC000BA8BC /* AgendaSessionCell.swift */; };
+		4FD475451F3E4F33000BA8BC /* SessionReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD475441F3E4F33000BA8BC /* SessionReminder.swift */; };
+		4FD475471F3E5D5C000BA8BC /* AddReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD475461F3E5D5C000BA8BC /* AddReminderViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FD475231F3CFF4C000BA8BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FD475041F3CFF4C000BA8BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FD4750B1F3CFF4C000BA8BC;
+			remoteInfo = ConferenceAgendaTracker;
+		};
+		4FD4752E1F3CFF4C000BA8BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FD475041F3CFF4C000BA8BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FD4750B1F3CFF4C000BA8BC;
+			remoteInfo = ConferenceAgendaTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FD4750C1F3CFF4C000BA8BC /* ConferenceAgendaTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConferenceAgendaTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD4750F1F3CFF4C000BA8BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FD475111F3CFF4C000BA8BC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		4FD475161F3CFF4C000BA8BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FD475181F3CFF4C000BA8BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FD4751B1F3CFF4C000BA8BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FD4751D1F3CFF4C000BA8BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD475221F3CFF4C000BA8BC /* ConferenceAgendaTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConferenceAgendaTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD475261F3CFF4C000BA8BC /* ConferenceAgendaTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceAgendaTrackerTests.swift; sourceTree = "<group>"; };
+		4FD475281F3CFF4C000BA8BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD4752D1F3CFF4C000BA8BC /* ConferenceAgendaTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConferenceAgendaTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD475311F3CFF4C000BA8BC /* ConferenceAgendaTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceAgendaTrackerUITests.swift; sourceTree = "<group>"; };
+		4FD475331F3CFF4C000BA8BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD475401F3D02EA000BA8BC /* AgendaManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgendaManager.swift; sourceTree = "<group>"; };
+		4FD475421F3D10AC000BA8BC /* AgendaSessionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AgendaSessionCell.swift; path = ../AgendaSessionCell.swift; sourceTree = "<group>"; };
+		4FD475441F3E4F33000BA8BC /* SessionReminder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionReminder.swift; sourceTree = "<group>"; };
+		4FD475461F3E5D5C000BA8BC /* AddReminderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddReminderViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FD475091F3CFF4C000BA8BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD4751F1F3CFF4C000BA8BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD4752A1F3CFF4C000BA8BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FD475031F3CFF4C000BA8BC = {
+			isa = PBXGroup;
+			children = (
+				4FD4750E1F3CFF4C000BA8BC /* ConferenceAgendaTracker */,
+				4FD475251F3CFF4C000BA8BC /* ConferenceAgendaTrackerTests */,
+				4FD475301F3CFF4C000BA8BC /* ConferenceAgendaTrackerUITests */,
+				4FD4750D1F3CFF4C000BA8BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FD4750D1F3CFF4C000BA8BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FD4750C1F3CFF4C000BA8BC /* ConferenceAgendaTracker.app */,
+				4FD475221F3CFF4C000BA8BC /* ConferenceAgendaTrackerTests.xctest */,
+				4FD4752D1F3CFF4C000BA8BC /* ConferenceAgendaTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FD4750E1F3CFF4C000BA8BC /* ConferenceAgendaTracker */ = {
+			isa = PBXGroup;
+			children = (
+				4FD4753F1F3CFF60000BA8BC /* Supporting Files */,
+				4FD475111F3CFF4C000BA8BC /* FirstViewController.swift */,
+				4FD475421F3D10AC000BA8BC /* AgendaSessionCell.swift */,
+				4FD475151F3CFF4C000BA8BC /* Main.storyboard */,
+				4FD475461F3E5D5C000BA8BC /* AddReminderViewController.swift */,
+				4FD475441F3E4F33000BA8BC /* SessionReminder.swift */,
+				4FD475401F3D02EA000BA8BC /* AgendaManager.swift */,
+			);
+			path = ConferenceAgendaTracker;
+			sourceTree = "<group>";
+		};
+		4FD475251F3CFF4C000BA8BC /* ConferenceAgendaTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FD475261F3CFF4C000BA8BC /* ConferenceAgendaTrackerTests.swift */,
+				4FD475281F3CFF4C000BA8BC /* Info.plist */,
+			);
+			path = ConferenceAgendaTrackerTests;
+			sourceTree = "<group>";
+		};
+		4FD475301F3CFF4C000BA8BC /* ConferenceAgendaTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4FD475311F3CFF4C000BA8BC /* ConferenceAgendaTrackerUITests.swift */,
+				4FD475331F3CFF4C000BA8BC /* Info.plist */,
+			);
+			path = ConferenceAgendaTrackerUITests;
+			sourceTree = "<group>";
+		};
+		4FD4753F1F3CFF60000BA8BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FD4750F1F3CFF4C000BA8BC /* AppDelegate.swift */,
+				4FD475181F3CFF4C000BA8BC /* Assets.xcassets */,
+				4FD4751A1F3CFF4C000BA8BC /* LaunchScreen.storyboard */,
+				4FD4751D1F3CFF4C000BA8BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FD4750B1F3CFF4C000BA8BC /* ConferenceAgendaTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD475361F3CFF4C000BA8BC /* Build configuration list for PBXNativeTarget "ConferenceAgendaTracker" */;
+			buildPhases = (
+				4FD475081F3CFF4C000BA8BC /* Sources */,
+				4FD475091F3CFF4C000BA8BC /* Frameworks */,
+				4FD4750A1F3CFF4C000BA8BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConferenceAgendaTracker;
+			productName = ConferenceAgendaTracker;
+			productReference = 4FD4750C1F3CFF4C000BA8BC /* ConferenceAgendaTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FD475211F3CFF4C000BA8BC /* ConferenceAgendaTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD475391F3CFF4C000BA8BC /* Build configuration list for PBXNativeTarget "ConferenceAgendaTrackerTests" */;
+			buildPhases = (
+				4FD4751E1F3CFF4C000BA8BC /* Sources */,
+				4FD4751F1F3CFF4C000BA8BC /* Frameworks */,
+				4FD475201F3CFF4C000BA8BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FD475241F3CFF4C000BA8BC /* PBXTargetDependency */,
+			);
+			name = ConferenceAgendaTrackerTests;
+			productName = ConferenceAgendaTrackerTests;
+			productReference = 4FD475221F3CFF4C000BA8BC /* ConferenceAgendaTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FD4752C1F3CFF4C000BA8BC /* ConferenceAgendaTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD4753C1F3CFF4C000BA8BC /* Build configuration list for PBXNativeTarget "ConferenceAgendaTrackerUITests" */;
+			buildPhases = (
+				4FD475291F3CFF4C000BA8BC /* Sources */,
+				4FD4752A1F3CFF4C000BA8BC /* Frameworks */,
+				4FD4752B1F3CFF4C000BA8BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FD4752F1F3CFF4C000BA8BC /* PBXTargetDependency */,
+			);
+			name = ConferenceAgendaTrackerUITests;
+			productName = ConferenceAgendaTrackerUITests;
+			productReference = 4FD4752D1F3CFF4C000BA8BC /* ConferenceAgendaTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FD475041F3CFF4C000BA8BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Afeka;
+				TargetAttributes = {
+					4FD4750B1F3CFF4C000BA8BC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					4FD475211F3CFF4C000BA8BC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4FD4750B1F3CFF4C000BA8BC;
+					};
+					4FD4752C1F3CFF4C000BA8BC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4FD4750B1F3CFF4C000BA8BC;
+					};
+				};
+			};
+			buildConfigurationList = 4FD475071F3CFF4C000BA8BC /* Build configuration list for PBXProject "ConferenceAgendaTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FD475031F3CFF4C000BA8BC;
+			productRefGroup = 4FD4750D1F3CFF4C000BA8BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FD4750B1F3CFF4C000BA8BC /* ConferenceAgendaTracker */,
+				4FD475211F3CFF4C000BA8BC /* ConferenceAgendaTrackerTests */,
+				4FD4752C1F3CFF4C000BA8BC /* ConferenceAgendaTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FD4750A1F3CFF4C000BA8BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD4751C1F3CFF4C000BA8BC /* LaunchScreen.storyboard in Resources */,
+				4FD475191F3CFF4C000BA8BC /* Assets.xcassets in Resources */,
+				4FD475171F3CFF4C000BA8BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD475201F3CFF4C000BA8BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD4752B1F3CFF4C000BA8BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FD475081F3CFF4C000BA8BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD475431F3D10AC000BA8BC /* AgendaSessionCell.swift in Sources */,
+				4FD475411F3D02EA000BA8BC /* AgendaManager.swift in Sources */,
+				4FD475101F3CFF4C000BA8BC /* AppDelegate.swift in Sources */,
+				4FD475451F3E4F33000BA8BC /* SessionReminder.swift in Sources */,
+				4FD475471F3E5D5C000BA8BC /* AddReminderViewController.swift in Sources */,
+				4FD475121F3CFF4C000BA8BC /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD4751E1F3CFF4C000BA8BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD475271F3CFF4C000BA8BC /* ConferenceAgendaTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD475291F3CFF4C000BA8BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD475321F3CFF4C000BA8BC /* ConferenceAgendaTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FD475241F3CFF4C000BA8BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FD4750B1F3CFF4C000BA8BC /* ConferenceAgendaTracker */;
+			targetProxy = 4FD475231F3CFF4C000BA8BC /* PBXContainerItemProxy */;
+		};
+		4FD4752F1F3CFF4C000BA8BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FD4750B1F3CFF4C000BA8BC /* ConferenceAgendaTracker */;
+			targetProxy = 4FD4752E1F3CFF4C000BA8BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FD475151F3CFF4C000BA8BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FD475161F3CFF4C000BA8BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FD4751A1F3CFF4C000BA8BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FD4751B1F3CFF4C000BA8BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FD475341F3CFF4C000BA8BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FD475351F3CFF4C000BA8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FD475371F3CFF4C000BA8BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConferenceAgendaTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.afeka.advcellular.michaelk17.ConferenceAgendaTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4FD475381F3CFF4C000BA8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConferenceAgendaTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.afeka.advcellular.michaelk17.ConferenceAgendaTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4FD4753A1F3CFF4C000BA8BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ConferenceAgendaTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.afeka.advcellular.michaelk17.ConferenceAgendaTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConferenceAgendaTracker.app/ConferenceAgendaTracker";
+			};
+			name = Debug;
+		};
+		4FD4753B1F3CFF4C000BA8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ConferenceAgendaTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.afeka.advcellular.michaelk17.ConferenceAgendaTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConferenceAgendaTracker.app/ConferenceAgendaTracker";
+			};
+			name = Release;
+		};
+		4FD4753D1F3CFF4C000BA8BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ConferenceAgendaTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.afeka.advcellular.michaelk17.ConferenceAgendaTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ConferenceAgendaTracker;
+			};
+			name = Debug;
+		};
+		4FD4753E1F3CFF4C000BA8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ConferenceAgendaTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.afeka.advcellular.michaelk17.ConferenceAgendaTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ConferenceAgendaTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FD475071F3CFF4C000BA8BC /* Build configuration list for PBXProject "ConferenceAgendaTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD475341F3CFF4C000BA8BC /* Debug */,
+				4FD475351F3CFF4C000BA8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD475361F3CFF4C000BA8BC /* Build configuration list for PBXNativeTarget "ConferenceAgendaTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD475371F3CFF4C000BA8BC /* Debug */,
+				4FD475381F3CFF4C000BA8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD475391F3CFF4C000BA8BC /* Build configuration list for PBXNativeTarget "ConferenceAgendaTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD4753A1F3CFF4C000BA8BC /* Debug */,
+				4FD4753B1F3CFF4C000BA8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD4753C1F3CFF4C000BA8BC /* Build configuration list for PBXNativeTarget "ConferenceAgendaTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD4753D1F3CFF4C000BA8BC /* Debug */,
+				4FD4753E1F3CFF4C000BA8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FD475041F3CFF4C000BA8BC /* Project object */;
+}
